@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venta de Fresas</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 20px;
+    }
+    header {
+      background-color: #e91e63;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    section {
+      margin: 20px auto;
+      max-width: 800px;
+    }
+    .fresa-img {
+      width: 100%;
+      max-width: 400px;
+      display: block;
+      margin: 20px auto;
+    }
+    .precio {
+      color: #e91e63;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      margin-top: 40px;
+      padding: 10px;
+      background-color: #f8bbd0;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Venta de Fresas Frescas</h1>
+    <p>¡Del campo a tu mesa!</p>
+  </header>
+
+  <section>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/2/29/PerfectStrawberry.jpg" alt="Fresas frescas" class="fresa-img">
+    <h2>Fresas orgánicas de alta calidad</h2>
+    <p>Nuestras fresas son cultivadas sin pesticidas, con métodos naturales que conservan el sabor auténtico y la frescura del campo.</p>
+    <p class="precio">$4.99 por kilo</p>
+    <p>Haz tu pedido por WhatsApp o visita nuestro puesto en el mercado local cada fin de semana.</p>
+  </section>
+
+  <footer>
+    <p>Contacto: <a href="mailto:ventas@fresasdelcampo.com">ventas@fresasdelcampo.com</a> | WhatsApp: +34 600 123 456</p>
+  </footer>
+</body>
+</html>
